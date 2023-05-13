@@ -14,7 +14,8 @@ cl.login(LOGIN, PASSWORD)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    "hello world"
+    # return render_template('index.html')
 
 @app.route('/result', methods=['POST'])
 def result():
