@@ -1,10 +1,10 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import instagrapi
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-load_dotenv()
+# load_dotenv()
 
 cl = instagrapi.Client()
 LOGIN = os.environ.get('LOGIN')
